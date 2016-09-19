@@ -81,8 +81,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8960 \
-    Snap
+    camera.msm8960
 
 # Compat
 PRODUCT_PACKAGES += \
@@ -106,10 +105,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libjni_motoSensor \
     MotoDoze
-
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
 
 # IRSC
 PRODUCT_COPY_FILES += \
